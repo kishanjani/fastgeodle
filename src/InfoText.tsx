@@ -25,12 +25,9 @@ function InfoText() {
         </Typography>
       </div>
       <Typography>
-        Figure out the secret country.      
-      <Typography>
-        You are given hints about the following categories:
-        Continent, Population, Landlocked, Religion, Temperature, and Government.
+        Figure out the secret country.
       </Typography>
-            <CountryResults
+      <CountryResults
         guessesData={[{
           country: 'Australia',
           continent: 'Oceania',
@@ -69,15 +66,6 @@ function InfoText() {
         The average temperature of the correct country is at least 10% higher than Australia&apos;s,
         so it shows
         {upwardsArrowImg}
-      </Typography>
-      <Typography>
-        Hover over the boxes to get information on your guess&apos;s data.
-      </Typography>
-      <Typography>
-        Hover over the category titles to get more information on what it means.
-      </Typography>
-      <Typography>
-        If you had fun, please share this game with your friends!
       </Typography>
     </div>
   );

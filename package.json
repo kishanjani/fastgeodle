@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://kishanjani.github.io/fastgeodle/",
+  "homepage": "https://kishanjani.github.io/fastgeodle",
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
@@ -25,7 +25,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --cname kishanjani.github.io/fastgeodle.",
+    "deploy": "gh-pages -d dist --cname kishanjani.github.io/fastgeodle",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "start": "vite",
     "build": "tsc && vite build",

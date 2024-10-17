@@ -25,7 +25,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --cname geodle.me",
+    "deploy": "gh-pages -d dist --cname kishanjani.github.io/fastgeodle.",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "start": "vite",
     "build": "tsc && vite build",

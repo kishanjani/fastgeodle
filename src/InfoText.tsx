@@ -25,23 +25,12 @@ function InfoText() {
         </Typography>
       </div>
       <Typography>
-        Figure out the secret country in 7 guesses!
-      </Typography>
-      <Typography>
-        Each guess must be a country that appears in the search box.
-      </Typography>
-      <Typography>
-        After each guess,
-        you will get a hint about how different your guess is from the correct country.
-      </Typography>
+        Figure out the secret country.      
       <Typography>
         You are given hints about the following categories:
         Continent, Population, Landlocked, Religion, Temperature, and Government.
       </Typography>
-      <Typography>
-        For example:
-      </Typography>
-      <CountryResults
+            <CountryResults
         guessesData={[{
           country: 'Australia',
           continent: 'Oceania',

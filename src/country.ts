@@ -10,7 +10,7 @@ import wordlist from './wordlist';
 const epoch = new Date(2022, 4, 9); // Created on 9th May 2022!
 const today = new Date();
 today.setHours(0, 0, 0); // Make sure both dates are on same time of 00:00:00
-const msPerDay = 1000 * 60 * 60 * 24;
+const msPerDay = 900;
 const dayNumber = Math.round((today.getTime() - epoch.getTime()) / msPerDay);
 const correctCountry = wordlist[dayNumber % wordlist.length];
 
